@@ -10,38 +10,30 @@ const experiencesData = [
   // First experience
   new Experience(
     "experience1",
-    "Senior Android Developer",
-    "Company Name",
-    "June 2022 - Present",
-    "<b>Feature Development:</b> Led the development of key features that increased user engagement by 30%.<br>" +
-      "<b>Performance Optimization:</b> Improved app loading time by 40% through code refactoring and implementing best practices.<br>" +
-      "<b>Team Leadership:</b> Mentored junior developers and implemented Agile methodologies for project management.",
-    ["Kotlin", "MVVM Architecture", "Jetpack Compose", "Firebase", "Git"]
+    "Software Development Intern",
+    "Evu Inc.<br> New York, U.S. ",
+    "May 2025 - Present",
+    "Building the Mobile Application for Elaview at Evu. Elaview is a B2B marketplace that connects landlords who have physical advertising space — like building walls, windows, vehicles, or billboards — with businesses looking to rent those spaces for ads.",
+    ["Flutter", "Getx", "State Management", "Firebase", "Git"]
   ),
 
   // Second experience
   new Experience(
     "experience2",
-    "Android Developer",
-    "Previous Company",
-    "January 2021 - May 2022",
-    "<b>App Development:</b> Developed and maintained multiple Android applications with over 100K downloads.<br>" +
-      "<b>UI/UX Implementation:</b> Collaborated with design team to create intuitive and responsive user interfaces.<br>" +
-      "<b>Integration:</b> Successfully implemented third-party APIs and services.",
-    ["Java", "Kotlin", "REST APIs", "Room Database", "Material Design"]
+    "Software Developer Intern",
+    "Thennal Air Filters Pvt. Ltd. <br> Chennai, India",
+    "September 2024 - November 2024",
+    `
+  <ul style="list-style-type: disc; padding-left: 20px;">
+    <li>Created an Android application from the ground up, connecting with sensors to display real-time readings.</li>
+    <li>Collaborated with design team to create intuitive and responsive user interfaces.</li>
+    <li>Crafted and executed core functionalities for seamless communication between the application and sensors.</li>
+    <li>Collaborated with the team to enhance user experience, ensuring smooth operation and data flow.</li>
+  </ul><br>
+`,
+    ["Kotlin", "REST APIs", "Room Database", "Material Design", "Firebase", "Authentication"]
   ),
 
-  // Third experience
-  new Experience(
-    "experience3",
-    "Junior Developer Intern",
-    "Internship Company",
-    "May 2020 - December 2020",
-    "<b>Mobile Development:</b> Contributed to the development of Android applications under senior guidance.<br>" +
-      "<b>Bug Fixing:</b> Identified and resolved various bugs and issues in existing applications.<br>" +
-      "<b>Documentation:</b> Created technical documentation for application features and APIs.",
-    ["Java", "Android SDK", "SQLite", "Git", "Agile Development"]
-  ),
 ];
 
 // Create and export the experience manager instance
